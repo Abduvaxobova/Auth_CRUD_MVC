@@ -9,4 +9,4 @@ use App\Http\Controllers\ProductController;
 // Route::post('/login', [AuthController::class, 'login'])->name('login');
 // Route::post('/logout', [AuthController::class, 'logout']);
 
-// Route::apiResource('products', ProductController::class);
+Route::apiResource('products', ProductController::class);
